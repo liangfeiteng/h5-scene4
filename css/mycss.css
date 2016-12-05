@@ -1,0 +1,516 @@
+html,body{
+	height: 100%;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	min-width: 320px;
+	max-width: 750px;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	clear: both;
+	content:"";
+	height: 0px;
+	display: block;
+	visibility: hidden;
+}
+.swiper-container{
+	position: relative;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+section{
+	cursor: pointer;
+	position: fixed;
+	right: 0.2rem;
+	top: 0.2rem;
+	height: 0.53rem;
+	width: 0.53rem;
+	border-radius: 50%;
+	z-index: 10;
+	background-image: url(../img/m.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@keyframes music{
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes music1{
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+/********************第一幕*********************/
+.swiper-container .swiper-wrapper .pag1 .txt1{
+	position: relative;
+	height: 100%;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(1){
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url(../img/1-11.png);
+	background-size: 50% 100%;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(2){
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url(../img/1-22.png);
+	background-size: 50% 100%;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(3){
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	margin-left: -86px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(3) img{
+	position: absolute;
+	left: 0;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(4){
+	position: absolute;
+	width: 50%;
+	right: 50%;
+	margin-right: -86px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(4) img{
+	position: absolute;
+	right: 0;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5){
+	position: absolute;
+	width: 50%;
+	left:0;
+	font-size: 0;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul{
+	position: absolute;
+	right: 8px;
+	top: 330px;
+	width: 36px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul li:nth-child(2){
+	position: absolute;
+	right: 22px;
+	top: 60px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul li:nth-child(3){
+	position: absolute;
+	right: 2px;
+	top: 103px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul li:nth-child(4){
+	position: absolute;
+	right: 26px;
+	top: 135px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul li:nth-child(5){
+	position: absolute;
+	right: 0px;
+	top: 165px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(5) ul li:nth-child(6){
+	position: absolute;
+	right: 20px;
+	top: 200px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6){
+	position: absolute;
+	width: 50%;
+	/*vertical-align: middle;*/
+	font-size: 0;
+	right: 0;	
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6) ul{
+	position: absolute;
+	left: 8px;
+	top: 330px;
+	width: 36px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6) ul li:nth-child(2){
+	position: absolute;
+	left: -6px;
+	top: 60px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6) ul li:nth-child(3){
+	position: absolute;
+	left: 12px;
+	top: 110px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6) ul li:nth-child(4){
+	position: absolute;
+	left: -7px;
+	top: 163px;
+}
+.swiper-container .swiper-wrapper .pag1 .txt1 div:nth-child(6) ul li:nth-child(5){
+	position: absolute;
+	left: 18px;
+	top: 200px;
+}
+.swiper-container .swiper-wrapper .swiper-slide i{
+	font-size: 0.60rem;
+	color: rgba(0,0,0,.6);
+	position: absolute;
+	bottom: 6%;
+	left: 50%;
+	margin-left: -0.3rem;
+	animation-iteration-count:infinite;
+}
+/********************第二幕*********************/
+.swiper-container .swiper-wrapper .pag2 .txt2{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+	z-index: -1;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 .txt22{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 .txt22 div:nth-child(1) {	
+	background-image: none;
+	text-align: center;
+	padding-top: 0.4rem;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 .txt22 div:nth-child(2) {	
+	background-image: none;
+	text-align: center;
+	padding-top: 0.1rem;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 .txt22 div:nth-child(3) {	
+	text-align: center;
+	padding-top: 0.1rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 .txt22 div:nth-child(4) {	
+	text-align: center;
+	padding-top: 1rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag2 .txt2 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+/********************第三幕*********************/
+.swiper-container .swiper-wrapper .pag3 .txt3{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 .txt33{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 .txt33 div:nth-child(1) {	
+	background-image: none;
+	text-align: right;
+	width: 50%;
+	float: left;
+	padding-top: 0.4rem;
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 .txt33 div:nth-child(2) {	
+	background-image: none;
+	text-align: center;
+	width: 50%;
+	float: right;
+	font-size: 0;
+	padding-top: 2.2rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 .txt33 div:nth-child(3) {	
+	background-image: none;
+	text-align: center;
+	width: 100%;
+	padding-top: 5.6rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 .txt33 div:nth-child(4) {	
+	background-image: none;
+	text-align: center;
+	width: 40%;
+	padding-top: 1rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag3 .txt3 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+	background-image: none;
+}
+/********************第四幕*********************/
+.swiper-container .swiper-wrapper .pag4 .txt4{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 .txt44{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 .txt44 div:nth-child(1) {	
+	background-image: none;
+	text-align: right;
+	width: 40%;
+	float: left;
+	padding-top: 0.4rem;
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 .txt44 div:nth-child(2) {	
+	text-align: left;
+	width: 50%;
+	float: right;
+	padding-top: 3.3rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 .txt44 div:nth-child(3) {	
+	text-align: right;
+	width: 45%;
+	float: left;
+	padding-top: 1.4rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 .txt44 div:nth-child(4) {	
+	text-align: left;
+	width: 60%;
+	float: right;
+	padding-top: 0.3rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag4 .txt4 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+/********************第五幕*********************/
+.swiper-container .swiper-wrapper .pag5 .txt5{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 .txt55{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 .txt55 div:nth-child(1) {	
+	background-image: none;
+	text-align: right;
+	width: 58%;
+	float: left;
+	padding-top: 0.4rem;
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 .txt55 div:nth-child(2) {	
+	background-image: none;
+	text-align: right;
+	width: 70%;
+	float: left;
+	padding-top: 0.4rem;
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 .txt55 div:nth-child(3) {	
+	background-image: none;
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding-top: 1rem;
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 .txt55 div:nth-child(4) {	
+	background-image: none;
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding-top: 0.6rem;
+}
+.swiper-container .swiper-wrapper .pag5 .txt5 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+/********************第六幕*********************/
+.swiper-container .swiper-wrapper .pag6 .txt6{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 .txt66{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 .txt66 div:nth-child(1) {	
+	background-image: none;
+	width: 56%;
+	font-size: 0;	
+	float: right;
+	padding-top: 0.2rem;;
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 .txt66 div:nth-child(1)  img{
+	float: right;
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 .txt66 div:nth-child(2) {	
+	background-image: none;
+	text-align: right;
+	width: 44%;
+	float: left;	
+	padding-top: 4.9rem;;
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 .txt66 div:nth-child(3) {	
+	background-image: none;
+	text-align: left;
+	width: 54%;
+	float: right;	
+	padding-top: 1.4rem;;
+}
+.swiper-container .swiper-wrapper .pag6 .txt6 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+/********************第七幕*********************/
+.swiper-container .swiper-wrapper .pag7 .txt7{
+	position: relative;
+	height: 100%;
+	padding: 20px 25px 70px;
+	background-image: url(../img/2-12.png);
+}
+.swiper-container .swiper-wrapper .pag7 .txt7 .txt77{
+	font-size: 0;
+	background-image: url(../img/2-2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .pag7 .txt7 .txt77 div:nth-child(1) {	
+	background-image: none;
+	width:40%;
+	font-size: 0;	
+	float: right;
+	padding-top: 1.2rem;;
+}
+.swiper-container .swiper-wrapper .pag7 .txt7 .txt77 div:nth-child(2) {	
+	width:100%;
+	font-size: 0;	
+	float: left;
+	text-align: center;
+	padding-top: 1.2rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag7 .txt7 .txt77 div:nth-child(3) {	
+	width:100%;
+	font-size: 0;	
+	float: left;
+	text-align: center;
+	padding-top: 1.2rem;
+	background-image: none;
+}
+.swiper-container .swiper-wrapper .pag7 .txt7 div:nth-child(2){
+	font-size: 0;
+	text-align: center;
+	padding-top: 0.3rem;
+}
+/********************第八幕*********************/
+.swiper-container .swiper-wrapper .pag8 .txt8{
+	width: 100%;
+	height:100%;
+	background-image: url(../img/8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.header{
+       height:100%;
+        background: url(../img/snow-bg.png) repeat-y center;
+
+		-webkit-animation: animate-snow 9s linear infinite;
+
+		-moz-animation: animate-snow 9s linear infinite;
+
+		-ms-animation: animate-snow 9s linear infinite;
+
+		animation: animate-snow 9s linear infinite;		
+
+    }
+
+	@keyframes animate-snow{
+		0%{
+			background-position: center 0, 0 0;
+		}
+		100%{ 
+			background-position: center 885px, 0 0;
+		}
+	}
+.wrapper {
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+.swiper-container .swiper-wrapper .pag8 .txt8 div:nth-child(2){
+	position: absolute;
+	top: 3rem;
+	color: #04f4fe;
+	width: 100%;
+	text-align:center;
+	font-size: 0.4rem;
+	font-family: "å¾®è½¯é›…é»‘";
+}
+.swiper-container .swiper-wrapper .pag8 .txt8 div:nth-child(3){
+	position: absolute;
+	top: 6rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
